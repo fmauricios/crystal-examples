@@ -1,9 +1,6 @@
 def fibonacci(n : Int32)
-  if n < 3
-    1
-  else
-    fibonacci(n - 1) + fibonacci(n - 2)
-  end
+  return n if n <= 1
+  fibonacci(n - 1) + fibonacci(n - 2)
 end
 
 time = Time.now
