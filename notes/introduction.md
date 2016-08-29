@@ -127,3 +127,14 @@ Method overloading allows you to use a single method name, but "overload it" (pr
 - Native code via LLVM
 - Concurrency via Channels
 - Type inference
+
+Init a crystal project
+*crystal init myApp*
+
+For other options we can write in our terminal
+*crystal build --help*
+
+In Crystal I can create my own types
+```crystal
+MyType{1, 2, 3}
+```
